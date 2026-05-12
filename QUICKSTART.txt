@@ -1,0 +1,82 @@
+═══════════════════════════════════════════════════════════
+         🚂 RAIL-DRISHTI QUICKSTART GUIDE
+═══════════════════════════════════════════════════════════
+
+STEP 1: INSTALL DEPENDENCIES
+─────────────────────────────────────────────────────────────
+Run the following command in your terminal:
+
+    pip install -r requirements.txt
+
+This will install all required packages including:
+- Streamlit (web framework)
+- Pandas (data processing)
+- XGBoost (ML model)
+- Google Generative AI (chatbot)
+- And other dependencies
+
+
+STEP 2: CONFIGURE API KEY
+─────────────────────────────────────────────────────────────
+Open api_client.py and update your Gemini API key:
+
+    GEMINI_API_KEY = "your-api-key-here"
+
+You can get a free API key from:
+https://ai.google.dev/
+
+
+STEP 3: VERIFY DATA FILE
+─────────────────────────────────────────────────────────────
+Ensure the CSV file exists:
+
+    data/indian_railway_data.csv
+
+✓ This file contains 100 railway records
+✓ Already populated with real train data
+
+
+STEP 4: RUN THE APPLICATION
+─────────────────────────────────────────────────────────────
+Execute the command:
+
+    streamlit run app.py
+
+The application will start and open in your browser at:
+    http://localhost:8501
+
+
+STEP 5: USE THE APPLICATION
+─────────────────────────────────────────────────────────────
+
+┌─ TRAIN DELAY PREDICTOR ─────────────────────────────────┐
+│ 1. Select train details from dropdowns                  │
+│ 2. Click "Predict Delay" button                         │
+│ 3. View prediction results with confidence metrics      │
+└──────────────────────────────────────────────────────────┘
+
+┌─ RAILWAY ASSISTANT ────────────────────────────────────┐
+│ 1. Type your railway question                          │
+│ 2. Get AI-powered responses instantly                  │
+│ 3. View source documents used                          │
+└──────────────────────────────────────────────────────────┘
+
+
+TROUBLESHOOTING
+─────────────────────────────────────────────────────────────
+❌ Module not found?
+   → Run: pip install -r requirements.txt
+
+❌ Dataset not found?
+   → Verify data/indian_railway_data.csv exists
+
+❌ Prediction fails?
+   → Check Databricks connection settings in api_client.py
+
+❌ Chatbot not responding?
+   → Verify Gemini API key is correct
+
+
+═══════════════════════════════════════════════════════════
+Ready to go! Your application should be running now.
+═══════════════════════════════════════════════════════════

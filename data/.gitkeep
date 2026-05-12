@@ -1,0 +1,2 @@
+# This file ensures the data directory is tracked by git
+# Place indian_railway_data.csv here before running the app

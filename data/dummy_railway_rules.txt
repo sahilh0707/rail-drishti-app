@@ -1,0 +1,6 @@
+[1] Luggage Policy: Passengers are allowed to carry up to 50kg of free luggage in First AC and 40kg in Second AC. Luggage above this limit will be charged at 1.5 times the normal rate.
+[2] Cancellation Rules: Tickets cancelled 48 hours before departure will incur a flat fee of Rs. 240 for AC First Class and Rs. 200 for AC 2-Tier. If cancelled between 48 hours and 12 hours, 25% of the fare is deducted.
+[3] Pet Policy: Dogs can be carried in AC First Class if an entire cabin is booked. Otherwise, they must be transported in the luggage van (Dog Box).
+[4] Food and Catering: Premium trains like Rajdhani and Shatabdi have catering charges included in the ticket fare. Passengers can opt out of catering while booking.
+[5] ID Requirements: Valid photo ID (Aadhaar, PAN, Voter ID, Passport, or Driving License) is mandatory for traveling in reserved classes.
+[6] Security: Carrying inflammable materials, explosives, and weapons (including guns) is strictly prohibited on Indian Railways and is a punishable offense.
