@@ -6,13 +6,14 @@ import numpy as np
 from typing import Dict, Any, List
 import warnings
 import joblib
-
+ 
 warnings.filterwarnings('ignore')
+from dotenv import load_dotenv
+load_dotenv()
 
 # ==================== CONFIGURATION ====================
 _PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-# Prefer env variable; avoids blocking the whole API when syncing OneDrive/local paths drift.
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyBtOMDUQFoZ2zBQinccfU3gq8dbWxmOEaw").strip()
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash").strip()
 RULES_FILE = os.path.join(_PROJECT_ROOT, 'data', 'dummy_railway_rules.txt')
 CSV_FILE = os.path.join(_PROJECT_ROOT, 'data', 'indian_railway_data.csv')
