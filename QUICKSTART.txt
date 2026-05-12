@@ -1,5 +1,5 @@
 ═══════════════════════════════════════════════════════════
-         🚂 RAIL-DRISHTI QUICKSTART GUIDE
+          RAIL-DRISHTI QUICKSTART GUIDE
 ═══════════════════════════════════════════════════════════
 
 STEP 1: INSTALL DEPENDENCIES
@@ -64,16 +64,16 @@ STEP 5: USE THE APPLICATION
 
 TROUBLESHOOTING
 ─────────────────────────────────────────────────────────────
-❌ Module not found?
+ Module not found?
    → Run: pip install -r requirements.txt
 
-❌ Dataset not found?
+ Dataset not found?
    → Verify data/indian_railway_data.csv exists
 
-❌ Prediction fails?
+ Prediction fails?
    → Check Databricks connection settings in api_client.py
 
-❌ Chatbot not responding?
+ Chatbot not responding?
    → Verify Gemini API key is correct
 
 
