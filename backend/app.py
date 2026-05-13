@@ -7,8 +7,7 @@ from pydantic import BaseModel
 from typing import Dict, Any, Optional, List
 from starlette.concurrency import run_in_threadpool
 
-from backend.api_client import predict_delay, send_chat_message, get_train_options, warm_knowledge_base
-
+from api_client import predict_delay, send_chat_message, get_train_options, warm_knowledge_base
 
 def _warm_knowledge_base_in_background() -> None:
     """Build chat knowledge base once so chat doesn't block train-options/other routes."""
